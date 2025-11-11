@@ -5,6 +5,8 @@
 }
 
 body {
+  background-color: #3c1518; /* existing bg color */
+  position: relative; /* ensure stacking context */
   height: 100vh;
   background: #3c1518;
   color:white;
@@ -15,6 +17,7 @@ body {
   font-family: 'Poppins', sans-serif;
   padding: 20px 10px;
   min-height: 100vh;
+  overflow: hidden; /* avoid scrollbars due to video */
 }
 
 h1 {
@@ -79,9 +82,9 @@ h1 {
 }
 
 .back-face {
-  background: #d58936;
+  background:#AB274F ;
   color: white;
-  border: 2px solid #d58936;
+  border: 2px solid #AB274F; /*--#d58936--*/
 }
 
 .restart {
@@ -153,4 +156,17 @@ h1 {
     font-size: 1rem;
     padding: 15px 20px;
   }
+}
+#backgroundvideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1; /* behind content */
+  object-fit: cover;
+  background-color: #3c1518; /* fallback behind video */
+  overflow: hidden;
 }
