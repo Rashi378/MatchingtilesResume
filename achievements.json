@@ -1,0 +1,26 @@
+{
+  "book": {
+    "title": "Educational Background",
+    "description": "Schooling from ICSE Board and Bachelors in Electronics from Rajdhani College, Delhi University"
+  },
+  "CCC": {
+    "title": "CCC Certified",
+    "description": "Certified By The Institute of Electronics and Informatics, Ministry of Electronics"
+  },
+  "Guitar": {
+    "title": "Interest In Playing Guitar",
+    "description": "Plays guitar and engages in singing as a creative outlet"
+  },
+  "corequalities": {
+    "title": "The Core Qualities",
+    "description": "Leadership, Time Management, Communication Skills and Decision Making"
+  },
+  "skills": {
+    "title": "Technological Knowledge",
+    "description": "Basic Knowledge of Database Systems, Operating Systems, Programming in C and Java and Web Technologies"
+  },
+  "briefcase": {
+    "title": "Academic and Professional Interest",
+    "description": "Academically Interested in Agile Frameworks like Scrum, Kanban and Professionally Interested in Technology Integration In Governance"
+  }
+}
